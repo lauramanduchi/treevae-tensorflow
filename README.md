@@ -5,7 +5,7 @@ Please refer to the PyTorch repository (https://github.com/lauramanduchi/treevae
 TreeVAE is a new generative method that learns the optimal tree-based posterior distribution of latent variables to capture the hierarchical structures present in the data. It adapts the architecture to discover the optimal tree for encoding dependencies between latent variables. TreeVAE optimizes the balance between shared and specialized architecture, enhancing the learning and adaptation capabilities of generative models. 
 An example of a tree learned by TreeVAE is depicted in the figure below. Each edge and each split are encoded by neural networks, while the circles depict latent variables. Each sample is associated with a probability distribution over different paths of the discovered tree. The resulting tree thus organizes the data into an interpretable hierarchical structure in an unsupervised fashion, optimizing the amount of shared information between samples. In CIFAR-10, for example, the method divides the vehicles and animals into two different subtrees and similar groups (such as planes and ships) share common ancestors.
 
-https://github.com/lauramanduchi/treevae/assets/32577028/2f473189-cb05-4482-bf77-ad128fa78b84![image](https://github.com/lauramanduchi/treevae-tensorflow/assets/32577028/1229051a-317d-4be8-9c31-e21e1591111f)
+![Alt text](https://github.com/lauramanduchi/treevae-tensorflow/assets/32577028/1229051a-317d-4be8-9c31-e21e1591111f)
 
 
 For running TreeVAE:
